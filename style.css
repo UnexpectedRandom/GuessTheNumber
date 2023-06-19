@@ -1,0 +1,43 @@
+body {
+    background-image:linear-gradient(to left, #13b821, #0da1a9, #00b9ff );
+}
+
+
+
+.title {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 55px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.theGame {
+    text-align: center;
+}
+
+.number {
+    height: 35px;
+    width: 166px;
+    border-radius: 10%;
+}
+
+.Guess {
+    border-radius: 10%;
+    font-size: fill;
+    height: 35px;
+}
+
+.description {
+    position: fixed;
+    bottom: 0%;
+}
+
+.Result {
+    text-align: center;
+}
